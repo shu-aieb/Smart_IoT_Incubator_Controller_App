@@ -1,4 +1,4 @@
-# Smart Incubator - IoT Control System
+# Smart Incubator App - IoT Control System
 
 An Android based application designed to remotely monitor, manage and automate industrial poultry incubators. 
 
