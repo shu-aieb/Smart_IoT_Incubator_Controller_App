@@ -5,7 +5,7 @@ An Android based application designed to remotely monitor, manage and automate i
 This project is a connection between complex embedded hardware (ESP8266) and end users, with a strong emphasis on fault-tolerant communication in an environment of low connectivity in rural areas.
 
 ## 📱 Interface Showcase
-Side by side comparison of the Dashboard, Batch Management and Warranty screen. (📸 Insert Image)
+![UI Showcase]()
 
 ## 🎯 The Problem & Purpose
 Control of environmental parameters is essential for industrial incubators. Thousands of eggs can be killed by a 2-degree drop in temperature. The farmers had to have a remote monitoring solution for their hardware. But in the rural farm area, there are many times when there is no internet connectivity, so regular IoT solutions are not particularly useful. 
