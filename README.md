@@ -56,11 +56,11 @@ This warranty logic is embedded in the hardware, eliminating the need for a pape
 
 The app distinguishes between Owner controls and User controls. Owners can set up to 6 different PINs for farm workers, which will limit access to critical temperature limits and enable owners to monitor dashboard statistics.
 
-Accessibility: Full bilingual support (English and Bengali) with toggling dynamically at runtime (without restarting the Activity). The hardware troubleshooting guides and connection diagrams are dynamically pulled from the app depending on the hardware model that is registered to the application.
+* **Accessibility:** Full bilingual support (English and Bengali) with toggling dynamically at runtime (without restarting the Activity). The hardware troubleshooting guides and connection diagrams are dynamically pulled from the app depending on the hardware model that is registered to the application.
 
 ## 🐛 Edge Cases Handled
-Standard SMS Payloads: Standardised SMS payloads to ensure commands fit into 160 characters to minimise packet loss and carrier charges.
+* **Standard SMS Payloads:** Standardised SMS payloads to ensure commands fit into 160 characters to minimise packet loss and carrier charges.
 
-Enhanced connection timeouts and retries for the Local Wi-fi mode, so that the app does not hang if the walking distance exceeds the range of the hardware.
+* **Enhanced connection timeouts:** For the Local Wi-fi mode, so that the app does not hang if the walking distance exceeds the range of the hardware.
 
-**Timer Desync:** No longer caused by the app's countdown timer drifting from the hardware's physical motor relays by using the hardware as the single source of truth and polling for changes instead of trying to calculate.
+* **Timer Desync:** No longer caused by the app's countdown timer drifting from the hardware's physical motor relays by using the hardware as the single source of truth and polling for changes instead of trying to calculate.
